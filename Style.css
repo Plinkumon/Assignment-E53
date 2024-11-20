@@ -1,19 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar-brand{
     color: green;
-    font-weight: bold;
+    font-weight: bolder;
     font-style:calc();
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-family: 'Dancing Script',cursive;
+    font-size: 40px;
 }
 /* #carousel{
      margin: 20px 200px;
     width: 1000px;
     /* height: 150px; */
     font-size: 40px;
-}  */
+}  
 body{
     margin: 30px;
-    background-color: green;
+    background-color: rgb(196, 255, 196);
 }
 #itemlist{
     
@@ -46,4 +50,8 @@ font-weight: bold;
         transform: scale(1.05);
         transition: transform 0.3s ease-in-out;
     }
-    
+    .accordion button{
+        font-size: 25px;
+        font-style: italic;
+        background-color: rgb(127, 248, 127);
+    }
